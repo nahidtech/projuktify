@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/about": "pages/about.js",
+  "/about-2": "pages/about-2.js",
+  "/services": "pages/services.js",
+  "/blog/[id]": "pages/blog/[id].js",
+  "/portfolio": "pages/portfolio.js",
+  "/portfolio-2": "pages/portfolio-2.js"
+}
