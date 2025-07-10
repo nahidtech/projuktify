@@ -1,12 +1,22 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
+  "/404": "pages/404.html",
+  "/api/hello": "pages/api/hello.js",
+  "/contact": "pages/contact.html",
+  "/_error": "pages/_error.js",
+  "/team": "pages/team.html",
+  "/blog": "pages/blog.js",
   "/about": "pages/about.js",
-  "/about-2": "pages/about-2.js",
-  "/services": "pages/services.js",
   "/blog/[id]": "pages/blog/[id].js",
+  "/blog/page/[page]": "pages/blog/page/[page].js",
+  "/home": "pages/home.js",
+  "/": "pages/index.js",
+  "/portfolio-2": "pages/portfolio-2.js",
   "/portfolio": "pages/portfolio.js",
-  "/portfolio-2": "pages/portfolio-2.js"
+  "/services": "pages/services.js",
+  "/services/[id]": "pages/services/[id].js",
+  "/portfolio/[id]": "pages/portfolio/[id].js",
+  "/about-2": "pages/about-2.js",
+  "/about-3": "pages/about-3.js"
 }

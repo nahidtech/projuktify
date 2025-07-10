@@ -1,0 +1,211 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/blog/page/[page]",
+      "regex": "^/blog/page/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPpage": "nxtPpage"
+      },
+      "namedRegex": "^/blog/page/(?<nxtPpage>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/blog/[id]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/blog/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/portfolio/[id]",
+      "regex": "^/portfolio/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/portfolio/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/services/[id]",
+      "regex": "^/services/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/services/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/404",
+      "regex": "^/404(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/404(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/about-2",
+      "regex": "^/about\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-2(?:/)?$"
+    },
+    {
+      "page": "/about-3",
+      "regex": "^/about\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about\\-3(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/home",
+      "regex": "^/home(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home(?:/)?$"
+    },
+    {
+      "page": "/portfolio",
+      "regex": "^/portfolio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/portfolio(?:/)?$"
+    },
+    {
+      "page": "/portfolio-2",
+      "regex": "^/portfolio\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/portfolio\\-2(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/team",
+      "regex": "^/team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/index\\.json$"
+    },
+    {
+      "page": "/about",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/about\\.json$"
+    },
+    {
+      "page": "/about-2",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/about-2\\.json$"
+    },
+    {
+      "page": "/about-3",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/about-3\\.json$"
+    },
+    {
+      "page": "/blog",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog\\.json$"
+    },
+    {
+      "page": "/blog/page/[page]",
+      "routeKeys": {
+        "nxtPpage": "nxtPpage"
+      },
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/page/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/page/(?<nxtPpage>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/blog/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/home",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/home\\.json$"
+    },
+    {
+      "page": "/portfolio",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/portfolio\\.json$"
+    },
+    {
+      "page": "/portfolio/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/portfolio/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/portfolio/(?<nxtPid>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/portfolio-2",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/portfolio-2\\.json$"
+    },
+    {
+      "page": "/services",
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/services\\.json$"
+    },
+    {
+      "page": "/services/[id]",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/services/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/services/(?<nxtPid>[^/]+?)\\.json$"
+    }
+  ],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

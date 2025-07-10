@@ -1,0 +1,595 @@
+{
+  "version": 4,
+  "routes": {
+    "/blog/page/2": {
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/blog/page/[page]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/page/3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/page/[page]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/page/4": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/page/[page]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/page/5": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/page/[page]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/5.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/page/6": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/page/[page]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/6.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about-3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/about-3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/index.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio-2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio-2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-01": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-01.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-02": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-02.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-03": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-03.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-04": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-04.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-05": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-05.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-06": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-06.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-07": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-07.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-08": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-08.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-09": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-09.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/project-10": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/portfolio/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/project-10.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/blog-articles": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services/blog-articles.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/email-writing": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services/email-writing.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/product-captions": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services/product-captions.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/website-content": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services/website-content.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/home": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/home.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/about.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/10-content-proof-tips-to-catch-goofs-2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/10-content-proof-tips-to-catch-goofs-2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/10-content-proof-tips-to-catch-goofs-3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/10-content-proof-tips-to-catch-goofs-3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/10-content-proof-tips-to-catch-goofs-4": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/10-content-proof-tips-to-catch-goofs-4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/10-content-proof-tips-to-catch-goofs": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/10-content-proof-tips-to-catch-goofs.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/5-steps-to-create-marketing-plan-2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/5-steps-to-create-marketing-plan-2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/5-steps-to-create-marketing-plan-3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/5-steps-to-create-marketing-plan-3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/5-steps-to-create-marketing-plan-4": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/5-steps-to-create-marketing-plan-4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/5-steps-to-create-marketing-plan": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/5-steps-to-create-marketing-plan.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/play-to-your-strength-and-supercharge-your-business-2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/play-to-your-strength-and-supercharge-your-business-2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/play-to-your-strength-and-supercharge-your-business-3": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/play-to-your-strength-and-supercharge-your-business-3.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/play-to-your-strength-and-supercharge-your-business-4": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/play-to-your-strength-and-supercharge-your-business-4.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/play-to-your-strength-and-supercharge-your-business": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/[id]",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/play-to-your-strength-and-supercharge-your-business.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about-2": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/about-2.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": null,
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {
+    "/blog/page/[page]": {
+      "routeRegex": "^/blog/page/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/page/[page].json",
+      "fallback": null,
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/page/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/portfolio/[id]": {
+      "routeRegex": "^/portfolio/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/portfolio/[id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/portfolio/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/[id]": {
+      "routeRegex": "^/services/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/services/[id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/services/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog/[id]": {
+      "routeRegex": "^/blog/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/SwJr5urbNxa33002H_p77/blog/[id].json",
+      "fallback": false,
+      "dataRouteRegex": "^/_next/data/SwJr5urbNxa33002H_p77/blog/([^/]+?)\\.json$",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "notFoundRoutes": [
+    "/blog/page/3",
+    "/blog/page/4",
+    "/blog/page/5",
+    "/blog/page/6"
+  ],
+  "preview": {
+    "previewModeId": "2b1a731a67ce45078a191d86b1d01e19",
+    "previewModeSigningKey": "19dbc370279534f32f51dfde211ca39de3444ef151a7f7048f9696a332738a58",
+    "previewModeEncryptionKey": "83774b18d2ae53c6fd3026cb519f1237c219b371853f4e278406bb1baac05411"
+  }
+}
