@@ -1,66 +1,54 @@
 {
-    "title": "We create the best social media<br /> marketing campaigns",
-    "button1": {
-        "label": "Portfolio",
-        "link": "/portfolio"
+  "title": "We grow businesses online with <br />  creative tech solutions.",
+  "button1": {
+    "label": "Contact us",
+    "link": "/contact"
+  },
+  "button2": {
+    "label": "About us",
+    "link": "/about-2"
+  },
+  "image": {
+    "url": "img/hero/hero.jpg",
+    "alt": "Image"
+  },
+  "rotateText": "Scroll down - Scroll down - ",
+  "lineText": [
+    {
+      "text": "Creative Expertise",
+      "separator": "&#x2022;"
     },
-    "button2": {
-        "label": "About us",
-        "link": "/about-2"
+    {
+      "text": "Tech-Savvy & Future-Ready",
+      "separator": "&#x2022;"
     },
-    "image": {
-        "url": "img/hero/5.jpg",
-        "alt": "Image"
+    {
+      "text": "Result-Oriented Strategy",
+      "separator": "&#x2022;"
     },
-    "rotateText": "Scroll down - Scroll down - ",
-    "lineText": [
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": ""
-        }
-    ]
+    {
+      "text": "Custom Solutions",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "Strong Communication",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "Brand-Focused Thinking",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "Analytics & Optimization",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "Reliable Support",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "Fast Turnaround & Scalability",
+      "separator": "&#x2022;"
+    }
+  ]
 }

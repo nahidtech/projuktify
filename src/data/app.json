@@ -28,11 +28,6 @@
         "children": 0
       },
       {
-        "label": "Blog",
-        "link": "/blog",
-        "children": 0
-      },
-      {
         "label": "Contact",
         "link": "/contact",
         "children": 0
@@ -41,10 +36,10 @@
   },
   "footer": {
     "logo": {
-      "text": "It’s Time to Pull in <br />a",
-      "accent": " Professional"
+      "text": "Empowering Ideas with Digital <br />Digital",
+      "accent": " Solutions"
     },
-    "description": "Adipisicing elit consequuntur odit accusamus, aspern loluptates ea consequuntur aspernatur fugiat. Lorem ipsum dolor sit amet.",
+    "description": "Projuktify is a creative digital agency helping brands grow with smart automation, modern design, and custom web solutions.",
     "menu": [
       {
         "label": "Homepage",
@@ -107,29 +102,29 @@
     }
   },
   "contacts": {
-    "email": "mil.design.inbox@mail.com",
-    "tel": "+49 (055) 742 7X 84"
+    "email": "projuktify@gmail.com",
+    "tel": "+8801518414322"
   },
   "social": [
     {
-      "link": "https://behance.net",
-      "icon": "fab fa-behance",
-      "title": "Behance"
+      "link": "www.facebook.com/projuktify",
+      "icon": "fab fa-facebook",
+      "title": "Facebook"
     },
     {
-      "link": "https://dribbble.com",
-      "icon": "fab fa-dribbble",
-      "title": "Dribbble"
-    },
-    {
-      "link": "https://twitter.com",
+      "link": "https://x.com/projuktify",
       "icon": "fab fa-twitter",
-      "title": "Twitter"
+      "title": "X"
     },
     {
-      "link": "https://instagram.com",
+      "link": "https://www.instagram.com/projuktify",
       "icon": "fab fa-instagram",
       "title": "Instagram"
+    },
+    {
+      "link": "https://www.youtube.com/@projuktify",
+      "icon": "fab fa-youtube",
+      "title": "Youtube"
     }
   ]
 }

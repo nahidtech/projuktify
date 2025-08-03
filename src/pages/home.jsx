@@ -1,22 +1,25 @@
-import React from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
 import { getSortedPostsData } from "@library/posts";
-import { getSortedServicesData } from "@library/services";
 import { getSortedProjectsData } from "@library/projects";
+import { getSortedServicesData } from "@library/services";
 
-import HeroTwoSection from "@components/sections/HeroTwo"
 import AboutThreeSection from "@components/sections/AboutThree";
 import CountersSection from "@components/sections/Counters";
-import CallToActionSection from "../components/sections/CallToAction";
+import HeroTwoSection from "@components/sections/HeroTwo";
+import ProjectsSection from "@components/sections/Projects";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
 import SubscribeSection from "@components/sections/Subscribe";
-import LatestPostsSection from "@components/sections/LatestPosts";
-import ProjectsSection from "@components/sections/Projects";
+import CallToActionSection from "../components/sections/CallToAction";
 
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const TestimonialSlider = dynamic(
+  () => import("@components/sliders/Testimonial"),
+  { ssr: false }
+);
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
+  ssr: false,
+});
 
 const Home2 = (props) => {
   return (
@@ -26,10 +29,10 @@ const Home2 = (props) => {
       <CountersSection />
       <ServicesTwoSection services={props.services} />
       <ProjectsSection projects={props.projects} />
-      <PartnersSlider />
+      {/* <PartnersSlider /> */}
       <TestimonialSlider />
       <CallToActionSection />
-      <LatestPostsSection posts={props.posts} layout={2} />
+      {/* <LatestPostsSection posts={props.posts} layout={2} /> */}
       <SubscribeSection />
     </Layouts>
   );
@@ -45,7 +48,7 @@ export async function getStaticProps() {
     props: {
       posts: allPosts,
       services: allServices,
-      projects: allProjects
-    }
-  }
+      projects: allProjects,
+    },
+  };
 }

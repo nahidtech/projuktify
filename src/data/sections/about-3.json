@@ -1,35 +1,35 @@
 {
-    "subtitle": "About us",
-    "title": "Writing content like you’ve never had before",
-    "description": "Perspiciatis ipsum vero optio rerum labore et delectus aspernatur.",
-    "button": {
-        "label": "Read more",
-        "link": "/about-2"
+  "subtitle": "About us",
+  "title": "Powering growth like you’ve never experienced before.",
+  "description": "We don’t just deliver services. We deliver digital stories with meaning.",
+  "button": {
+    "label": "Read more",
+    "link": "/about-2"
+  },
+  "gallery": [
+    {
+      "url": "img/content/about1.jpg",
+      "width": "1000",
+      "height": "1500",
+      "alt": "img"
     },
-    "gallery": [
-        {
-            "url": "img/content/8.jpg",
-            "width": "1000",
-            "height": "1500",
-            "alt": "img"
-        },
-        {
-            "url": "img/content/9.jpg",
-            "width": "1920",
-            "height": "1280",
-            "alt": "img"
-        },
-        {
-            "url": "img/content/10.jpg",
-            "width": "1000",
-            "height": "1500",
-            "alt": "img"
-        },
-        {
-            "url": "img/content/11.jpg",
-            "width": "1920",
-            "height": "1440",
-            "alt": "img"
-        }
-    ]
+    {
+      "url": "img/content/about2.jpg",
+      "width": "1920",
+      "height": "1280",
+      "alt": "img"
+    },
+    {
+      "url": "img/content/about3.jpg",
+      "width": "1000",
+      "height": "1500",
+      "alt": "img"
+    },
+    {
+      "url": "img/content/about4.jpg",
+      "width": "1920",
+      "height": "1440",
+      "alt": "img"
+    }
+  ]
 }
