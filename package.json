@@ -13,7 +13,7 @@
     "formik": "^2.4.2",
     "gray-matter": "^4.0.3",
     "gsap": "^3.11.5",
-    "next": "^15.3.5",
+    "next": "15.3.8",
     "photoswipe": "^5.3.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
